@@ -38,7 +38,7 @@
         </div>
     </nav>
 </header>
-
+<!-- Hero Section -->
 <section class="hero" id="home">
     <div class="hero-content">
         <p class="small-text">
@@ -97,10 +97,62 @@
 
 </section>
 
-<section id="about" class="placeholder">
+<!-- About Section -->
 
-    <h2>About</h2>
+<section id="about" class="about">
+    <div class="section-title">
+        <p>GET TO KNOW ME</p>
+        <h2>About Me</h2>
+    </div>
 
+    <div class="about-container">
+        <div class="about-text">
+            <h3>
+                Passionate About Building Modern Web Applications
+            </h3>
+            <p>
+                I'm Mohd Saad, a B.Tech Information Technology student with a
+                strong interest in Full Stack Development and Data Structures &
+                Algorithms. I enjoy transforming ideas into functional,
+                responsive, and user-friendly web applications while
+                continuously improving my technical skills.
+            </p>
+            <p>
+                Alongside web development, I actively solve coding problems on
+                LeetCode and constantly explore new technologies to become a
+                better software developer.
+            </p>
+            <a href="assets/resume/resume.pdf" class="btn primary-btn">
+                Download Resume
+            </a>
+        </div>
+
+        <div class="about-cards">
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h4>Full Stack</h4>
+                <p>Building responsive and scalable web applications.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h4>DSA</h4>
+                <p>Consistently solving problems to improve logic.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h4>Problem Solver</h4>
+                <p>I enjoy solving real-world programming challenges.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-book-open"></i>
+                <h4>Continuous Learner</h4>
+                <p>Always learning new technologies and frameworks.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="skills" class="placeholder">

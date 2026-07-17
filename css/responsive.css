@@ -1,0 +1,24 @@
+@media(max-width:992px){
+.about-container{
+    flex-direction:column;
+}
+
+.about-cards{
+    width:100%;
+}
+}
+
+@media(max-width:600px){
+.about-cards{
+    grid-template-columns:1fr;
+}
+
+.section-title h2{
+    font-size:36px;
+}
+
+.about-text h3{
+    font-size:28px;
+}
+
+}
