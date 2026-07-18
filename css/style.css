@@ -481,3 +481,18 @@ header{
 
     letter-spacing:1px;
 }
+
+/* Projects Section */
+
+.projects{
+        width:90%;
+    max-width:1200px;
+    margin:120px auto;
+}
+
+.prjects-container{
+        display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:70px;
+}

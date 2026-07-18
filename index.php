@@ -263,9 +263,106 @@
     </div>
 </section>
 
-<section id="projects" class="placeholder">
+<!-- Projeect Section -->
 
-    <h2>Projects</h2>
+<section class="projects" id="projects">
+    <div class="section-title">
+        <p>MY WORK</p>
+        <h2>Featured Projects</h2>
+    </div>
+
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/images/smartchef.png" alt="SmartChef">
+            </div>
+
+            <div class="project-content">
+                <h3>SmartChef - AI Recipe Generator</h3>
+                <p>
+                    A full-stack web application that recommends recipes
+                    based on available ingredients using AI concepts.
+                    Includes user authentication, profile management,
+                    and MySQL database integration.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn primary-btn">
+                        Live Demo
+                    </a>
+                    <a href="#" class="btn secondary-btn">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/images/portfolio.png" alt="Portfolio">
+            </div>
+
+            <div class="project-content">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive developer portfolio built with
+                    HTML, CSS, JavaScript, PHP and MySQL featuring
+                    an admin dashboard, project management, and
+                    modern UI animations.
+                </p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn primary-btn">
+                        Live Demo
+                    </a>
+                    <a href="#" class="btn secondary-btn">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/images/upcoming.png" alt="Upcoming Project">
+            </div>
+            <div class="project-content">
+                <h3>Upcoming Project</h3>
+                <p>
+                    More exciting projects are currently under
+                    development and will be added soon as I continue
+                    learning Full Stack Development and building
+                    real-world applications.
+                </p>
+                <div class="project-tech">
+                    <span>Coming Soon</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn primary-btn">
+                        Preview
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
 
