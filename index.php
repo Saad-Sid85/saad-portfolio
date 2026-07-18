@@ -155,10 +155,112 @@
     </div>
 </section>
 
-<section id="skills" class="placeholder">
+<!--==================== SKILLS ====================-->
 
-    <h2>Skills</h2>
+<section class="skills" id="skills">
+    <div class="section-title">
+        <p>WHAT I KNOW</p>
+        <h2>My Skills</h2>
+    </div>
 
+    <div class="skills-container">
+        <!-- Frontend -->
+
+        <div class="skill-card">
+            <div class="skill-title">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+            </div>
+
+            <div class="skill-list">
+                <div class="skill-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+
+        <div class="skill-card">
+            <div class="skill-title">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+            </div>
+
+            <div class="skill-list">
+                <div class="skill-item">
+                    <i class="fa-brands fa-php"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programming -->
+
+        <div class="skill-card">
+            <div class="skill-title">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Programming</h3>
+            </div>
+
+            <div class="skill-list">
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <span>C++</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+            <div class="skill-title">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Tools & Technologies</h3>
+            </div>
+            
+            <div class="skill-list">
+                <div class="skill-item">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <span>VS Code</span>
+                </div>
+
+                <div class="skill-item">
+                    <i class="fa-solid fa-server"></i>
+                    <span>XAMPP</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="projects" class="placeholder">

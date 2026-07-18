@@ -22,3 +22,235 @@
 }
 
 }
+
+/*=====================================
+            RESPONSIVE DESIGN
+======================================*/
+
+/* -------- Laptop -------- */
+
+@media (max-width:1200px){
+
+    .hero{
+
+        gap:50px;
+    }
+
+    .hero h1{
+
+        font-size:60px;
+    }
+
+    .hero h2{
+
+        font-size:28px;
+    }
+
+    .image-box{
+
+        width:370px;
+        height:370px;
+    }
+
+}
+
+/* -------- Tablet -------- */
+
+@media (max-width:992px){
+
+    /* Navbar */
+
+    .navbar{
+
+        padding:18px 25px;
+    }
+
+    .nav-links{
+
+        display:none;
+    }
+
+    .resume-btn{
+
+        display:none;
+    }
+
+    .menu-btn{
+
+        display:block;
+    }
+
+    /* Hero */
+
+    .hero{
+        flex-direction:column-reverse;
+        justify-content:center;
+        text-align:center;
+        padding:140px 0 80px;
+        gap:60px;
+    }
+
+    .hero-content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .social-icons{
+    justify-content:center;
+    }
+
+    .image-box{
+        width:320px;
+        height:320px;
+    }
+
+    .hero h1{
+        font-size:52px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
+    /* About */
+    .about-container{
+        flex-direction:column;
+        gap:50px;
+    }
+
+    .about-text{
+        text-align:center;
+    }
+
+    .about-cards{
+        width:100%;
+    }
+
+    /* Skills */
+
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* -------- Mobile -------- */
+
+@media (max-width:768px){
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:20px;
+    }
+
+    .hero-description{
+        font-size:16px;
+        line-height:30px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+    .image-box{
+        width:260px;
+        height:260px;
+    }
+
+    .section-title h2{
+        font-size:36px;
+    }
+
+    .section-title p{
+        font-size:14px;
+    }
+
+    .about-text h3{
+        font-size:28px;
+    }
+
+    .about-cards{
+        grid-template-columns:1fr;
+    }
+
+    .skill-card{
+        padding:28px;
+    }
+
+    .skill-title h3{
+        font-size:20px;
+    }
+
+}
+
+/* -------- Small Mobile -------- */
+
+@media (max-width:480px){
+
+    .navbar{
+        width:95%;
+    }
+
+    .logo a{
+        font-size:24px;
+    }
+
+    .hero{
+        width:95%;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    .hero-description{
+        font-size:15px;
+        line-height:28px;
+    }
+
+    .image-box{
+        width:220px;
+        height:220px;
+    }
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .about{
+        width:95%;
+    }
+
+    .skills{
+        width:95%;
+    }
+
+    .skill-item{
+        padding:12px;
+    }
+
+    .skill-item span{
+        font-size:15px;
+    }
+
+    .card{
+        padding:25px;
+    }
+
+}

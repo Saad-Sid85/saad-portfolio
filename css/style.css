@@ -61,7 +61,7 @@ header{
 .nav-links{
     display:flex;
     gap:35px;
-}
+} 
 
 .nav-links a{
     font-size:16px;
@@ -319,4 +319,165 @@ header{
 .card p{
     color:#999;
     line-height:28px;
+}
+
+/* Skills Section */
+
+.skills{
+    width:90%;
+    max-width:1200px;
+    margin:120px auto;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:70px;
+}
+
+.skill-card{
+    background:#111;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+}
+
+.skill-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:4px;
+    background:#fff;
+    transition:.5s;
+}
+
+.skill-card:hover::before{
+    left:0;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    background:#181818;
+    box-shadow:0 20px 40px rgba(255,255,255,.05);
+}
+
+.skill-title{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.skill-title i{
+    font-size:28px;
+    color:#fff;
+}
+
+.skill-title h3{
+    font-size:24px;
+    font-weight:600;
+}
+
+.skill-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.skill-item{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:15px 18px;
+    border-radius:12px;
+    background:#1b1b1b;
+    transition:.35s;
+}
+
+.skill-item:hover{
+    background:#252525;
+    transform:translateX(10px);
+}
+
+.skill-item i{
+    font-size:30px;
+
+    width:40px;
+
+    text-align:center;
+}
+
+.skill-item span{
+
+    font-size:17px;
+
+    color:#ddd;
+
+    font-weight:500;
+}
+
+/* Individual Icon Colors */
+
+.fa-html5{
+    color:#E34F26;
+}
+
+.fa-css3-alt{
+    color:#1572B6;
+}
+
+.fa-js{
+    color:#F7DF1E;
+}
+
+.fa-php{
+    color:#777BB4;
+}
+
+.fa-python{
+    color:#FFD43B;
+}
+
+.fa-github{
+    color:#fff;
+}
+
+.fa-git-alt{
+    color:#F1502F;
+}
+
+.fa-database{
+    color:#ffffff;
+}
+
+.fa-server{
+    color:#ffffff;
+}
+
+.fa-code{
+    color:#ffffff;
+}
+
+.fa-screwdriver-wrench{
+    color:#ffffff;
+}
+
+/* Hover Animation */
+
+.skill-card:hover .skill-title i{
+
+    transform:rotate(360deg);
+
+    transition:.7s;
+}
+
+.skill-card:hover .skill-title h3{
+
+    letter-spacing:1px;
 }
