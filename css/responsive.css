@@ -254,3 +254,413 @@
     }
 
 }
+/*=====================================
+        PROJECTS RESPONSIVE
+======================================*/
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:992px){
+
+    .project-card{
+
+        grid-template-columns:1fr;
+    }
+
+    .project-image{
+
+        height:300px;
+    }
+
+    .project-content{
+
+        padding:35px;
+    }
+
+    .project-content h3{
+
+        font-size:28px;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+    .projects{
+
+        width:95%;
+    }
+
+    .project-image{
+
+        height:240px;
+    }
+
+    .project-content{
+
+        padding:25px;
+    }
+
+    .project-content h3{
+
+        font-size:24px;
+    }
+
+    .project-content p{
+
+        font-size:15px;
+
+        line-height:28px;
+    }
+
+    .project-tech{
+
+        gap:10px;
+    }
+
+    .project-tech span{
+
+        padding:8px 14px;
+
+        font-size:13px;
+    }
+
+    .project-buttons{
+
+        flex-direction:column;
+    }
+
+    .project-buttons .btn{
+
+        width:100%;
+
+        text-align:center;
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width:480px){
+
+    .project-image{
+
+        height:200px;
+    }
+
+    .project-content{
+
+        padding:20px;
+    }
+
+    .project-content h3{
+
+        font-size:22px;
+    }
+
+    .project-content p{
+
+        font-size:14px;
+
+        line-height:26px;
+    }
+
+    .project-tech{
+
+        gap:8px;
+    }
+
+    .project-tech span{
+
+        padding:7px 12px;
+
+        font-size:12px;
+    }
+
+}
+/*=====================================
+        CONTACT RESPONSIVE
+======================================*/
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:992px){
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .contact-info{
+
+        text-align:center;
+    }
+
+    .contact-item{
+
+        justify-content:flex-start;
+    }
+
+    .contact-social{
+
+        justify-content:center;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+    .contact{
+
+        width:95%;
+    }
+
+    .contact-form{
+
+        padding:30px;
+    }
+
+    .contact-info h3{
+
+        font-size:28px;
+    }
+
+    .contact-info p{
+
+        font-size:15px;
+
+        line-height:28px;
+    }
+
+    .contact-item{
+
+        padding:18px;
+
+        gap:15px;
+    }
+
+    .contact-item i{
+
+        width:50px;
+
+        height:50px;
+
+        font-size:20px;
+    }
+
+    .contact-item h4{
+
+        font-size:17px;
+    }
+
+    .contact-item p{
+
+        font-size:14px;
+    }
+
+    .input-box input,
+    .input-box textarea{
+
+        padding:14px 16px;
+
+        font-size:15px;
+    }
+
+    .contact-form button{
+
+        width:100%;
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width:480px){
+
+    .contact-form{
+
+        padding:22px;
+    }
+
+    .contact-info h3{
+
+        font-size:24px;
+    }
+
+    .contact-item{
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    .contact-item i{
+
+        margin-bottom:10px;
+    }
+
+    .contact-social{
+
+        gap:12px;
+    }
+
+    .contact-social a{
+
+        width:45px;
+
+        height:45px;
+    }
+
+    .contact-social i{
+
+        font-size:18px;
+    }
+
+}
+/*=====================================
+        FOOTER RESPONSIVE
+======================================*/
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:992px){
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+        text-align:center;
+    }
+
+    .footer-logo p{
+
+        max-width:100%;
+
+        margin:auto;
+    }
+
+    .footer-icons{
+
+        justify-content:center;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+    .footer{
+
+        margin-top:80px;
+    }
+
+    .footer-container{
+
+        width:95%;
+
+        padding:50px 0 30px;
+    }
+
+    .footer-logo h2{
+
+        font-size:30px;
+    }
+
+    .footer-logo p{
+
+        font-size:15px;
+
+        line-height:28px;
+    }
+
+    .footer-links h3,
+    .footer-social h3{
+
+        font-size:20px;
+    }
+
+    .footer-links ul{
+
+        gap:12px;
+    }
+
+    .footer-icons{
+
+        gap:15px;
+    }
+
+    .footer-icons a{
+
+        width:45px;
+
+        height:45px;
+    }
+
+    .footer-icons i{
+
+        font-size:18px;
+    }
+
+    .footer-bottom{
+
+        padding:20px 10px;
+    }
+
+    .footer-bottom p{
+
+        font-size:14px;
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width:480px){
+
+    .footer-container{
+
+        gap:35px;
+    }
+
+    .footer-logo h2{
+
+        font-size:26px;
+    }
+
+    .footer-logo p{
+
+        font-size:14px;
+    }
+
+    .footer-links a{
+
+        font-size:15px;
+    }
+
+    .footer-icons{
+
+        gap:12px;
+    }
+
+    .footer-icons a{
+
+        width:42px;
+
+        height:42px;
+    }
+
+    .footer-bottom p{
+
+        font-size:13px;
+    }
+
+}

@@ -75,17 +75,17 @@
                 <i class="fab fa-github"></i>
             </a>
 
-            <a href="#">
-                <i class="fab fa-linkedin"></i>
-            </a>
+          <a href="https://www.linkedin.com/in/mohd-saad-71b25a402/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+</a>
 
-            <a href="#">
-                <i class="fas fa-envelope"></i>
-            </a>
+           <a href="mailto:saadsiddiqui1905@gmail.com">
+    <i class="fas fa-envelope"></i>
+</a>
 
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
+         <a href="https://www.instagram.com/solivagant_s._/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+</a>
         </div>
     </div>
 
@@ -263,7 +263,7 @@
     </div>
 </section>
 
-<!-- Projeect Section -->
+<!-- Project Section -->
 
 <section class="projects" id="projects">
     <div class="section-title">
@@ -275,7 +275,7 @@
         <!-- Project 1 -->
         <div class="project-card">
             <div class="project-image">
-                <img src="assets/images/smartchef.png" alt="SmartChef">
+                <img src="assests/images/smartchef.png" alt="SmartChef">
             </div>
 
             <div class="project-content">
@@ -300,7 +300,7 @@
                     <a href="#" class="btn primary-btn">
                         Live Demo
                     </a>
-                    <a href="#" class="btn secondary-btn">
+                    <a href="https://github.com/Saad-Sid85/SmartChef-AI-Powered-Recipe-Generator" class="btn secondary-btn">
                         GitHub
                     </a>
                 </div>
@@ -310,7 +310,7 @@
         <!-- Project 2 -->
         <div class="project-card">
             <div class="project-image">
-                <img src="assets/images/portfolio.png" alt="Portfolio">
+                <img src="assests/images/portfolio.png" alt="Portfolio">
             </div>
 
             <div class="project-content">
@@ -326,13 +326,14 @@
                     <span>CSS</span>
                     <span>JavaScript</span>
                     <span>PHP</span>
+                    <span>MySQL</span>
                 </div>
 
                 <div class="project-buttons">
                     <a href="#" class="btn primary-btn">
                         Live Demo
                     </a>
-                    <a href="#" class="btn secondary-btn">
+                    <a href="https://github.com/Saad-Sid85/saad-portfolio" class="btn secondary-btn">
                         GitHub
                     </a>
                 </div>
@@ -342,7 +343,7 @@
         <!-- Project 3 -->
         <div class="project-card">
             <div class="project-image">
-                <img src="assets/images/upcoming.png" alt="Upcoming Project">
+                <img src="assests/images/upcoming.png" alt="Upcoming Project">
             </div>
             <div class="project-content">
                 <h3>Upcoming Project</h3>
@@ -366,13 +367,171 @@
 
 </section>
 
-<section id="contact" class="placeholder">
+<!--==================== CONTACT ====================-->
+<section class="contact" id="contact">
+    <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Contact Me</h2>
+    </div>
+    <div class="contact-container">
 
-    <h2>Contact</h2>
+        <!-- Left Side -->
+        <div class="contact-info">
+            <h3>Let's Work Together</h3>
+            <p>
+                I'm always open to discussing new opportunities,
+                innovative projects, internships, freelance work,
+                or simply connecting with fellow developers.
+                Feel free to reach out anytime.
+            </p>
 
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+
+                <div>
+                    <h4>Email</h4>
+                    <p>saadsiddiqui1905@gmail.com</p>
+                </div>
+
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+                    <h4>Phone</h4>
+                    <p>+91 8528979105</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Location</h4>
+                    <p>Barabanki, Uttar Pradesh, India</p>
+                </div>
+            </div>
+
+            <div class="contact-social">
+
+                <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://instagram.com/yourusername" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="contact-form">
+            <form action="php/contact.php" method="POST">
+                <div class="input-box">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <textarea
+                        name="message"
+                        rows="7"
+                        placeholder="Write your message..."
+                        required>
+                    </textarea>
+
+                </div>
+                <button type="submit" class="btn primary-btn">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
 </section>
 
 <script src="js/script.js"></script>
 
+<!-- Scroll To Top Button -->
+<button id="scrollTopBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!--==================== FOOTER ====================-->
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>SAAD</h2>
+            <p>
+                Passionate Full Stack Developer focused on creating
+                modern, responsive and user-friendly web applications
+                and solving real world problems usign the DSA.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h3>Connect</h3>
+            <div class="footer-icons">
+                <a href="https://github.com/Saad-Sid85" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+           <a href="https://www.linkedin.com/in/mohd-saad-71b25a402/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+</a>
+
+                <a href="https://www.instagram.com/solivagant_s._/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+</a>
+
+               <a href="mailto:saadsiddiqui1905@gmail.com">
+    <i class="fas fa-envelope"></i>
+</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            © 2026 Mohd Saad. All Rights Reserved.
+        </p>
+    </div>
+</footer>
 </body>
 </html>
