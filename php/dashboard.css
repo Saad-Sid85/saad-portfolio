@@ -1,0 +1,246 @@
+/*=============================
+      DASHBOARD STYLES
+==============================*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:#000;
+    color:#fff;
+}
+.dashboard{
+    width:90%;
+    max-width:1400px;
+    margin:40px auto;
+}
+/*=============================
+            HEADER
+==============================*/
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+.topbar h1{
+    font-size:36px;
+    margin-bottom:8px;
+}
+.topbar p{
+    color:#999;
+}
+.logout-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 28px;
+    border-radius:40px;
+    background:#fff;
+    color:#000;
+    text-decoration:none;
+    font-weight:600;
+    transition:.35s;
+}
+.logout-btn:hover{
+    background:#d9d9d9;
+    transform:translateY(-3px);
+}
+/*=============================
+          STATISTICS
+==============================*/
+.stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-bottom:40px;
+}
+.stat-card{
+    background:#111;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    transition:.35s;
+}
+.stat-card:hover{
+    transform:translateY(-8px);
+    background:#181818;
+}
+.stat-card i{
+    font-size:34px;
+    margin-bottom:20px;
+}
+.stat-card h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+.stat-card p{
+    color:#999;
+}
+/*=============================
+            SEARCH
+==============================*/
+.search-box{
+    display:flex;
+    gap:15px;
+    margin-bottom:35px;
+}
+.search-box input{
+    flex:1;
+    padding:16px 20px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:#111;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.08);
+    font-size:16px;
+}
+.search-box button{
+    padding:16px 28px;
+    border:none;
+    border-radius:12px;
+    background:#fff;
+    color:#000;
+    font-weight:600;
+    cursor:pointer;
+    transition:.35s;
+}
+.search-box button:hover{
+    background:#d9d9d9;
+}
+/*=============================
+            TABLE
+==============================*/
+.table-container{
+    overflow-x:auto;
+    background:#111;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.08);
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+thead{
+    background:#181818;
+}
+th{
+    padding:20px;
+    text-align:left;
+    font-size:15px;
+    font-weight:600;
+}
+td{
+    padding:18px 20px;
+    color:#d5d5d5;
+    border-top:1px solid rgba(255,255,255,.06);
+}
+tbody tr{
+    transition:.3s;
+}
+tbody tr:hover{
+    background:#181818;
+}
+.delete-btn{
+    color:#ff4d4d;
+    font-size:18px;
+    transition:.3s;
+}
+.delete-btn:hover{
+    color:#ff2222;
+}
+/*=============================
+        SCROLLBAR
+==============================*/
+.table-container::-webkit-scrollbar{
+    height:8px;
+}
+.table-container::-webkit-scrollbar-thumb{
+    background:#444;
+    border-radius:20px;
+}
+.table-container::-webkit-scrollbar-track{
+    background:#111;
+}
+/*====================================
+        RESPONSIVE DESIGN
+====================================*/
+/* -------- Tablet -------- */
+@media (max-width:992px){
+    .topbar{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:25px;
+    }
+    .stats{
+        grid-template-columns:1fr;
+    }
+    .search-box{
+        flex-direction:column;
+    }
+    .search-box button{
+        width:100%;
+    }
+}
+/* -------- Mobile -------- */
+@media (max-width:768px){
+    .dashboard{
+        width:95%;
+        margin:25px auto;
+    }
+    .topbar h1{
+        font-size:30px;
+    }
+    .logout-btn{
+        width:100%;
+        justify-content:center;
+    }
+    .stat-card{
+        padding:28px;
+    }
+    .stat-card h2{
+        font-size:34px;
+    }
+    .table-container{
+        font-size:14px;
+    }
+    th,
+    td{
+        padding:14px;
+    }
+}
+/* -------- Small Mobile -------- */
+@media (max-width:480px){
+    .topbar h1{
+        font-size:24px;
+    }
+    .topbar p{
+        font-size:14px;
+    }
+    .search-box input{
+        font-size:15px;
+        padding:14px;
+    }
+    .search-box button{
+        padding:14px;
+    }
+    .stat-card i{
+        font-size:28px;
+    }
+    .stat-card h2{
+        font-size:28px;
+    }
+    .stat-card p{
+        font-size:14px;
+    }
+    th{
+        font-size:13px;
+    }
+    td{
+        font-size:13px;
+    }
+}

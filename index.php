@@ -364,7 +364,6 @@
         <!-- Right Side -->
          
         <div class="contact-form">
-            
             <form action="php/contact.php" method="POST">
                 <div class="input-box">
                     <input
