@@ -330,7 +330,7 @@
             </p>
             <div class="contact-item">
                 <i class="fa-solid fa-envelope"></i>
-                <div>
+                <div> 
                     <h4>Email</h4>
                     <p>saadsiddiqui1905@gmail.com</p>
                 </div>
