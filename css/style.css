@@ -886,3 +886,10 @@ header {
     cursor:pointer;
     width:fit-content;
 }
+button:disabled{
+
+    opacity:.8;
+
+    cursor:not-allowed;
+
+}

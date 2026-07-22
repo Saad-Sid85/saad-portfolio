@@ -310,8 +310,6 @@
         </div>
     </div>
 </section>
-
-
 <!--==================== CONTACT ====================-->
 <section class="contact" id="contact">
     <div class="section-title">
@@ -364,7 +362,7 @@
         <!-- Right Side -->
          
         <div class="contact-form">
-            <form action="php/contact.php" method="POST">
+            <form id = "contactForm" action="php/contact.php" method="POST">
                 <div class="input-box">
                     <input
                         type="text"
@@ -394,7 +392,7 @@
                         required>
                     </textarea>
                 </div>
-                <button type="submit" class="btn primary-btn">
+                <button type="submit" class="btn primary-btn" id ="submitBtn">
                     Send Message
                 </button>
             </form>
@@ -451,5 +449,85 @@
         </p>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php
+if(isset($_GET['status'])){
+$status = $_GET['status'];
+?>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+<?php
+switch($status){
+case "success":
+?>
+Swal.fire({
+icon:"success",
+title:"Message Sent!",
+text:"Thank you for contacting me.",
+confirmButtonColor:"#000"
+});
+<?php
+break;
+case "error":
+?>
+Swal.fire({
+icon:"error",
+title:"Oops!",
+text:"Something went wrong.",
+confirmButtonColor:"#000"
+});
+<?php
+break;
+case "empty":
+?>
+Swal.fire({
+icon:"warning",
+title:"Missing Fields",
+text:"Please fill all the fields.",
+confirmButtonColor:"#000"
+});
+<?php
+break;
+case "invalidemail":
+?>
+Swal.fire({
+icon:"warning",
+title:"Invalid Email",
+text:"Please enter a valid email address.",
+confirmButtonColor:"#000"
+});
+<?php
+break;
+}
+?>
+});
+</script>
+<?php
+}
+?>
+<script>
+if(window.history.replaceState){
+    window.history.replaceState(null,null,window.location.pathname);
+}
+</script>
+<script>
+const form = document.getElementById("contactForm");
+const btn = document.getElementById("submitBtn");
+
+if(form){
+
+    form.addEventListener("submit", function(){
+
+        btn.disabled = true;
+
+        btn.innerHTML = `
+            <i class="fa-solid fa-spinner fa-spin"></i>
+            Sending...
+        `;
+
+    });
+
+}
+</script>
 </body>
 </html>
