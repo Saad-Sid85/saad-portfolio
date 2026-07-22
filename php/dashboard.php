@@ -155,15 +155,10 @@ Logout
 </section>
 <!-- ================= SEARCH ================= -->
 <div class="export-section">
-
 <a href="export.php" class="export-btn">
-
 <i class="fa-solid fa-file-csv"></i>
-
 Export CSV
-
 </a>
-
 </div>
 <form method="GET">
 <input
