@@ -31,17 +31,18 @@ header {
     z-index: 1000;
 }
 .navbar {
-    width: 90%;
-    max-width: 1300px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 35px;
-    border: 1px solid rgba(255, 255, 255, .08);
-    background: rgba(255, 255, 255, .05);
-    backdrop-filter: blur(15px);
-    border-radius: 50px;
+    width:90%;
+    max-width:1300px;
+    margin:20px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 35px;
+    border:1px solid rgba(255,255,255,.08);
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    border-radius:50px;
+    transition:0.4s ease;
 }
 .logo a {
     font-size: 30px;
@@ -53,7 +54,7 @@ header {
     gap: 35px;
 }
 .nav-links a {
-    font-size: 16px;
+    font-size: 18px;
     color: #d8d8d8;
     transition: .3s;
 }
@@ -978,101 +979,56 @@ button:disabled{
     background: #4e4d4d;
 }
 .section-subtitle {
-
     text-align: center;
-
     font-size: 14px;
-
     letter-spacing: 3px;
-
     font-weight: 600;
-
     color: #666;
-
     margin-bottom: 10px;
-
     text-transform: uppercase;
-
 }
 /* Certificate PDF Modal */
-
-
 .certificate-modal {
-
     display: none;
-
     position: fixed;
-
     z-index: 9999;
-
     left: 0;
-
     top: 0;
-
     width: 100%;
-
     height: 100%;
-
     background: rgba(0,0,0,0.7);
-
 }
-
-
-
 .certificate-modal-content {
-
     position: relative;
-
     width: 80%;
-
     height: 90%;
-
     margin: 3% auto;
-
     background: white;
-
     border-radius: 10px;
-
     overflow: hidden;
-
 }
-
-
-
 .certificate-modal-content iframe {
-
     width: 100%;
-
     height: 100%;
-
     border: none;
-
 }
-
-
-
 .close-certificate {
-
     position: absolute;
-
     right: 20px;
-
     top: 10px;
-
     font-size: 35px;
-
     color: black;
-
     cursor: pointer;
-
     z-index: 10;
-
 }
-
-
-
 .close-certificate:hover {
-
     color: red;
-
+}
+/* Navbar on scroll */
+.navbar.sticky {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }

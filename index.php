@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
 <header>
@@ -21,9 +22,9 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-            
+            <li><a href="#contact">Contact</a></li>  
         </ul>
+
         <a href="resume/resume.pdf" class="resume-btn">
             Resume
         </a>
@@ -311,9 +312,7 @@
         </div>
     </div>
 </section>
-
 <!-- Achievements & Certifications Section -->
-
 <section id="certifications" class="certification-section">
     <p class="section-subtitle"> MY ACCOMPLISHMENTS</p>
     <h2 class="section-title">Achievements & Certifications</h2>
@@ -551,7 +550,7 @@
             <p>
                 Passionate Full Stack Developer focused on creating
                 modern, responsive and user-friendly web applications
-                and solving real world problems usign the DSA.
+                and solving real world problems using the DSA.
             </p>
         </div>
         <div class="footer-links">
@@ -663,29 +662,16 @@ if(form){
 }
 </script>
 <!-- Certificate Modal -->
-
 <div id="certificateModal" class="certificate-modal">
-
-
     <div class="certificate-modal-content">
-
-
         <span class="close-certificate"
         onclick="closeCertificate()">
-
             &times;
-
         </span>
-
-
         <iframe id="certificateFrame"
         src="">
         </iframe>
-
-
     </div>
-
-
 </div>
 </body>
 </html>
