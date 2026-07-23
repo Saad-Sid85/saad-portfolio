@@ -887,9 +887,192 @@ header {
     width:fit-content;
 }
 button:disabled{
-
     opacity:.8;
-
     cursor:not-allowed;
+} 
+/* =====================================
+   Achievements & Certifications Section
+===================================== */
+.certification-section {
+    padding: 80px 8%;
+}
+/* Section Heading */
+.certification-section .section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+/* Cards Wrapper */
+.certification-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+/* Certificate Card */
+.certificate-card {
+    background: #181818;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(18, 1, 28, 0.12);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Hover Effect */
+.certificate-card:hover {
+    transform: translateY(-10px);
+}
+/* Logo Area */
+.certificate-logo {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.certificate-logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+/* Certificate Content */
+.certificate-details h3 {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+/* Issuing Organization */
+.certificate-provider {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+/* Date */
+.certificate-date {
+    color: #fcefef;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/* Description */
+.certificate-details p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #f4f3f3;
+}
+/* View Button */
+.view-certificate {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #f4f2f2;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-align: center;
+}
+.view-certificate:hover {
+    background: #4e4d4d;
+}
+.section-subtitle {
+
+    text-align: center;
+
+    font-size: 14px;
+
+    letter-spacing: 3px;
+
+    font-weight: 600;
+
+    color: #666;
+
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+
+}
+/* Certificate PDF Modal */
+
+
+.certificate-modal {
+
+    display: none;
+
+    position: fixed;
+
+    z-index: 9999;
+
+    left: 0;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+
+
+.certificate-modal-content {
+
+    position: relative;
+
+    width: 80%;
+
+    height: 90%;
+
+    margin: 3% auto;
+
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+
+
+.certificate-modal-content iframe {
+
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+}
+
+
+
+.close-certificate {
+
+    position: absolute;
+
+    right: 20px;
+
+    top: 10px;
+
+    font-size: 35px;
+
+    color: black;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+}
+
+
+
+.close-certificate:hover {
+
+    color: red;
 
 }

@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 <header>
@@ -21,9 +20,11 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
+            
         </ul>
-        <a href="#" class="resume-btn">
+        <a href="resume/resume.pdf" class="resume-btn">
             Resume
         </a>
         <div class="menu-btn">
@@ -310,6 +311,144 @@
         </div>
     </div>
 </section>
+
+<!-- Achievements & Certifications Section -->
+
+<section id="certifications" class="certification-section">
+    <p class="section-subtitle"> MY ACCOMPLISHMENTS</p>
+    <h2 class="section-title">Achievements & Certifications</h2>
+    <div class="certification-wrapper">
+        <!-- Certificate 1 -->
+        <div class="certificate-card">
+            <div class="certificate-logo">
+                <img src="assests/logo/ntpc.png" alt="NTPC Logo">
+            </div>
+            <div class="certificate-details">
+                <h3>NTPC Electro Quiz - Regional Round</h3>
+                <p class="certificate-provider">
+                    Issued by: NTPC Limited
+                </p>
+                <p class="certificate-date">
+                    Date: 29 November 2025
+                </p>
+                <p>
+                    Represented my college in the NTPC Electro Quiz
+                    Regional Round and participated as a college representative.
+                </p>
+                <a href="assests/certificates/ntpc.pdf"
+                onclick="openCertificate('assests/certificates/ntpc.pdf')"
+                class="view-certificate">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+        <!-- Certificate 2 -->
+        <div class="certificate-card">
+            <div class="certificate-logo">
+                <img src="assests/logo/be10x.png" alt="Be10X Logo">
+            </div>
+            <div class="certificate-details">
+                <h3>AI Tools Workshop</h3>
+                <p class="certificate-provider">
+                    Issued by: Be10X
+                </p>
+                <p class="certificate-date">
+                    Date: 17 May 2026
+                </p>
+                <p>
+                    Learned about AI productivity tools, automation,
+                    and practical applications of artificial intelligence
+                    in daily workflows.
+                </p>
+                <a href="assests/certificates/be10x.pdf"
+                onclick="openCertificate('assests/certificates/be10x.pdf')"
+                class="view-certificate">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+        <!-- Certificate 3 -->
+        <div class="certificate-card">
+            <div class="certificate-logo">
+                <img src="assests/logo/nasscom.png" alt="NASSCOM Logo">
+            </div>
+            <div class="certificate-details">
+                <h3>AI - Data Engineering Analyst</h3>
+                <p class="certificate-provider">
+                    Issued by: NASSCOM
+                </p>
+                <p class="certificate-date">
+                    Date: 21 June 2026
+                </p>
+                <p>
+                    Developed understanding of AI concepts,
+                    data engineering practices, and analytical skills
+                    required in modern technology roles.
+                </p>
+                <a href="assests/certificates/nasscom.pdf"
+                onclick="openCertificate('assests/certificates/nasscom.pdf')"
+                class="view-certificate">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+        <!-- Certificate 4 -->
+        <div class="certificate-card">
+            <div class="certificate-logo">
+                <img src="assests/logo/forage.png" alt="TATA Logo">
+            </div>
+            <div class="certificate-details">
+                <h3>
+                    Cyber Security Analyst Job Simulation
+                </h3>
+                <p class="certificate-provider">
+                    Issued by: Forage
+                </p>
+                <p class="certificate-date">
+                    Date: 24 June 2026
+                </p>
+                <p>
+                    Completed a cybersecurity analyst simulation
+                    involving practical tasks and real-world security
+                    problem-solving scenarios.
+                </p>
+                <a href="assests/certificates/forage.pdf"
+                onclick="openCertificate('assests/certificates/ntpc.pdf')"
+                class="view-certificate">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+        <!-- Certificate 5 -->
+        <div class="certificate-card">
+            <div class="certificate-logo">
+                <img src="assests/logo/simplilearn.png" 
+                alt="Simplilearn Logo">
+            </div>
+            <div class="certificate-details">
+                <h3>
+                    Get Started with Databricks for Generative AI
+                </h3>
+                <p class="certificate-provider">
+                    Issued by: Simplilearn
+                </p>
+                <p class="certificate-date">
+                    Date: 16 July 2026
+                </p>
+                <p>
+                    Learned fundamentals of Databricks,
+                    Generative AI concepts, and their applications
+                    in modern data and AI workflows.
+                </p>
+                <a href="assests/certificates/simplilearn.pdf"
+                onclick="openCertificate('assests/certificates/simplilearn.pdf')"
+                class="view-certificate">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 <!--==================== CONTACT ====================-->
 <section class="contact" id="contact">
     <div class="section-title">
@@ -348,13 +487,13 @@
                 </div>
             </div>
             <div class="contact-social">
-                <a href="https://github.com/yourusername" target="_blank">
+                <a href="https://github.com/Saad-Sid85" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <a href="https://www.linkedin.com/in/mohd-saad-71b25a402/ target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://instagram.com/yourusername" target="_blank">
+                <a href="https://www.instagram.com/solivagant_s._/" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -513,21 +652,40 @@ if(window.history.replaceState){
 <script>
 const form = document.getElementById("contactForm");
 const btn = document.getElementById("submitBtn");
-
 if(form){
-
     form.addEventListener("submit", function(){
-
         btn.disabled = true;
-
         btn.innerHTML = `
             <i class="fa-solid fa-spinner fa-spin"></i>
             Sending...
         `;
-
     });
-
 }
 </script>
+<!-- Certificate Modal -->
+
+<div id="certificateModal" class="certificate-modal">
+
+
+    <div class="certificate-modal-content">
+
+
+        <span class="close-certificate"
+        onclick="closeCertificate()">
+
+            &times;
+
+        </span>
+
+
+        <iframe id="certificateFrame"
+        src="">
+        </iframe>
+
+
+    </div>
+
+
+</div>
 </body>
 </html>

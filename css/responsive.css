@@ -468,19 +468,28 @@
 }
 }
 @media(max-width:768px){
-
 .export-section{
-
 justify-content:center;
-
 }
-
 .export-btn{
-
 width:100%;
-
 justify-content:center;
-
 }
-
+} 
+/* =========================
+   Responsive Design
+========================= */
+@media(max-width:768px){
+    .certification-section {
+        padding: 60px 5%;
+    }
+    .certification-section .section-title {
+        font-size: 30px;
+    }
+    .certification-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .certificate-card {
+        padding: 25px;
+    }
 }

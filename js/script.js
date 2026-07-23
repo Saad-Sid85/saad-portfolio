@@ -76,3 +76,32 @@ function revealSections(){
 }
 window.addEventListener("scroll",revealSections);
 window.addEventListener("load",revealSections);
+
+function openCertificate(pdf){
+
+    document.getElementById("certificateModal").style.display = "block";
+
+    document.getElementById("certificateFrame").src = pdf;
+
+}
+
+
+
+function closeCertificate(){
+
+    document.getElementById("certificateModal").style.display = "none";
+
+    document.getElementById("certificateFrame").src = "";
+
+}
+window.onclick = function(event){
+
+    let modal = document.getElementById("certificateModal");
+
+    if(event.target == modal){
+
+        closeCertificate();
+
+    }
+
+}
