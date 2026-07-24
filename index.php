@@ -25,7 +25,7 @@
             <li><a href="#contact">Contact</a></li>  
         </ul>
 
-        <a href="resume/resume.pdf" class="resume-btn">
+        <a href="assests/resume/my resume.pdf" class="resume-btn">
             Resume
         </a>
         <div class="menu-btn">
@@ -103,7 +103,7 @@
                 LeetCode and constantly explore new technologies to become a
                 better software developer.
             </p>
-            <a href="assets/resume/resume.pdf" class="btn primary-btn">
+            <a href="assests/resume/my resume.pdf" class="btn primary-btn">
                 Download Resume
             </a>
         </div>
@@ -537,7 +537,7 @@
         </div>
     </div>
 </section>
-<script src="js/script.js"></script>
+<script src="js/script.js" defer></script>
 <!-- Scroll To Top Button -->
 <button id="scrollTopBtn">
     <i class="fa-solid fa-arrow-up"></i>
