@@ -3,9 +3,9 @@ A modern **Full-Stack Developer Portfolio** built with **PHP, MySQL, HTML, CSS, 
 ---
 
 ### Home Page
-![Home](assets/images/home.png)
+![Home](assests/images/home.png)
 ### Admin Dashboard
-![Dashboard](assets/images/dashboard.png)
+![Dashboard](assests/images/dashboard.png)
 ---
 ## ✨ Features
 ### 👨‍💻 Portfolio
@@ -59,7 +59,6 @@ Portfolio/
 ├── assets/
 ├── css/
 ├── database/
-│   └── portfolio.sql
 ├── js/
 ├── pages/
 ├── php/
@@ -128,8 +127,10 @@ Every message is
 **Mohd Saad**
 📧 Email:
 saadsiddiqui1905@gmail.com
+
 💼 LinkedIn:
 https://www.linkedin.com/in/mohd-saad-71b25a402
+
 📷 Instagram:
 https://www.instagram.com/solivagant_s._/
 ---
